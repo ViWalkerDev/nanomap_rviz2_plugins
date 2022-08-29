@@ -1,0 +1,14 @@
+<library path="nanomap_rviz2_plugins">
+
+  <!-- Displays plugins -->
+  <class
+    name="nanomap_rviz2_plugins/OpenvdbGrid"
+    type="rviz_default_plugins::displays::OpenvdbGridDisplay"
+    base_class_type="rviz_common::Display"
+  >
+    <description>
+      The Openvdb Grid display shows data from a nanomap_msgs/OpenvdbGrid message.
+    </description>
+    <message_type>nanomap_msgs/msg/OpenvdbGrid</message_type>
+  </class>
+</library>
